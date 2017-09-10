@@ -1,0 +1,8 @@
+---
+applications:
+- name: mbo-mock-api
+  memory: 512M
+  disk_quota: 512M
+  buildpack: java_buildpack_offline
+  path: target/virtualservice-1.0.jar
+  
